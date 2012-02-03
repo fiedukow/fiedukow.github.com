@@ -1,0 +1,95 @@
+body
+{
+    background: #0000FF;
+}
+div#content
+{
+    margin: 20px auto;
+    border: 1px solid red; 
+    width: 768px;
+}
+div#menu
+{
+    height: 35px;
+    width: 100%;
+    border: 1px solid green;
+}
+div#menu ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+div#menu ul li
+{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 35px;
+    line-height: 35px; 
+    text-align: center;
+    background-color: gray;
+    border-right: 2px solid black;
+}
+div#menu ul li.anal
+{
+    background-color: yellow;
+    border: 0px;
+}
+div#subpage
+{
+    background: gray;
+}
+div#text
+{
+}
+div#logo
+{
+    height: 80px;
+    background: green;
+}
+div#map
+{
+    width: 498px;
+    height: 498px;
+    margin: 10px;
+    margin-right: 0px;
+    float: left;
+    background: yellow;
+}
+div#combo
+{
+    border: 1px solid purple;
+    margin: 10px auto;
+    margin-bottom: 0px;
+    width: 748px;
+}
+div#combo select
+{
+    width: 748px;
+}
+div#right_text
+{
+    width: 240px;
+    height: 498px;
+    margin: 10px;
+    float: left;
+    background: red;
+}
+div#legend
+{
+    height: 245px;
+}
+div#description
+{
+    border: 3px dotted green;
+    float: left;
+    width: 742px; 
+    margin: 0px 10px;
+}
+div#foot
+{
+    border: 1px solid black;
+    float: left;
+    width: 746px;
+    margin: 10px;
+}
