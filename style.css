@@ -78,6 +78,13 @@ div#right_text
 div#legend
 {
     height: 245px;
+    margin-bottom: 8px;
+    background: purple;
+} 
+div#image_comment
+{
+    height: 245px;
+    background: lime;
 }
 div#description
 {
