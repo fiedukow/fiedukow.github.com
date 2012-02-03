@@ -30,9 +30,19 @@ div#menu ul li
     background-color: gray;
     border-right: 2px solid black;
 }
+div#menu ul li a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+div#menu ul li a:hover
+{
+    color: white;
+}
 div#menu ul li.anal
 {
-    background-color: yellow;
+    background-color: red;
     border: 0px;
 }
 div#subpage
@@ -88,9 +98,9 @@ div#image_comment
 }
 div#description
 {
-    border: 3px dotted green;
+    border: 1px solid green;
     float: left;
-    width: 742px; 
+    width: 746px; 
     margin: 0px 10px;
 }
 div#foot
