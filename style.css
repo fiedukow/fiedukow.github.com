@@ -1,18 +1,16 @@
 body
 {
-    background: #0000FF;
+    background: url("./images/bg.jpg");
 }
 div#content
 {
     margin: 20px auto;
-    border: 1px solid red; 
-    width: 768px;
+    width: 770px;
 }
 div#menu
 {
     height: 35px;
     width: 100%;
-    border: 1px solid green;
 }
 div#menu ul
 {
@@ -24,15 +22,20 @@ div#menu ul li
     display: block;
     float: left;
     width: 100px;
-    height: 35px;
+    height: 34px;
     line-height: 35px; 
     text-align: center;
-    background-color: gray;
-    border-right: 2px solid black;
+    border: 1px solid black;
+    border-bottom: 0px;
+    background: url("./images/menu_button.jpg");
 }
 div#menu ul li a
 {
     color: black;
+    display: block;
+    float: left;
+    width: 100px;
+    height: 35px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -42,12 +45,12 @@ div#menu ul li a:hover
 }
 div#menu ul li.anal
 {
-    background-color: red;
-    border: 0px;
+    background: url("./images/ana_button.jpg");
 }
 div#subpage
 {
     background: gray;
+    border: 1px solid black;
 }
 div#text
 {
@@ -55,6 +58,7 @@ div#text
 div#logo
 {
     height: 80px;
+    border-bottom: 1px solid black;
     background: green;
 }
 div#map
@@ -66,9 +70,14 @@ div#map
     float: left;
     background: yellow;
 }
+div#map iframe
+{
+    width: 497px;
+    height: 497px;
+    border: 1px solid black;
+}
 div#combo
 {
-    border: 1px solid purple;
     margin: 10px auto;
     margin-bottom: 0px;
     width: 748px;
@@ -83,7 +92,6 @@ div#right_text
     height: 498px;
     margin: 10px;
     float: left;
-    background: red;
 }
 div#legend
 {
@@ -109,4 +117,11 @@ div#foot
     float: left;
     width: 746px;
     margin: 10px;
+    text-align: center;
+}
+div#foot p
+{
+    font-size: 10px;
+    font-family: "Courier New", "Monospace" , Courier, Monospace;
+    margin: 2px;
 }
